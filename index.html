@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+    <!-- head e body sono i due marcatori che dipendono da html-->
+<head>
+        <title>Il veleno nel Medioevo</title>
+         <!-- charset è per settare unicode -->
+         <meta charset="UTF-8"  />         
+         <meta name="description" content="Sito dedicato alle attestazioni del veleno nel Medioevo"  />
+         <meta name="keywords" content="veleno, Medioevo, strumenti di navigazione"  />
+         <meta name="author" content="Federica Gaeta"  />
+         <!-- viewport è per la visualizzazione su device diversi -->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+         <link rel="stylesheet"
+         href="style.css" />
+</head>
+<body>
+        <!--header-->
+        <header>
+        <div class="logo-container">
+          <img src="tofana.jpg" alt="The love potion" class="logo" width="200" height="200">
+        </div>
+        <div class="header-title">
+          <p style="text-align:left;"><i> Φάρμακον (pharmakon) è una parola greca che ha un duplice significato e può indicare sia un veleno che un rimedio o antidoto.</i></p>
+        <p style="text-align:left;"><i> Questo termine ambivalente riflette la consapevolezza che ciò che può ferire può anche curare</i></p>
+        <p style="text-align:left;"><i>e che la cura può essere trovata anche all'interno della ferita stessa.</i></p>
+       </div>
+       </header>
+       <!--navigation bar-->
+       <section>       
+        <div class="topnav">
+        <a href="index.html" title="Vai alla home">Home</a>
+        <a href="#">Introduzione</a>        
+        <!--index-->      
+        <div class="dropdown">
+          <button class="dropbtn">Catalogo
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+          <a href="lista-item.html">Lista</a>
+          <a href="#">Scienza</a>
+          <a href="#">Stregoneria</a>
+          <a href="#">Folclore</a>
+        </div>
+        </div>
+        <a href="Linea del tempo.html" title="Vai alla linea del tempo">Linea del tempo</a>
+        <a href="newsletter.html" title="Vai alla newsletter">Newsletter</a>   
+        <!--search bar-->
+        <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit">Cerca</button>
+        </form>
+        </div>
+        </div>
+      </section>
+        <!--hero container--> 
+        <section>
+        <div class="hero-container">   
+        <div> 
+        <img src="la-bottega-dello-speziale.jpg" alt="Notebook" width="1550" height="550">
+        <!--title-->
+        <div class="content">
+              <h1>Il veleno nel Medioevo</h1>
+              <h3><p><i>Attestazioni di un'arma letale 
+              tra scienza, stregoneria 
+              e folclore</i></p></h3>
+              <div class="image-button">
+              <a href="#project"><button class="btn bg-grey">Scopri di più</button></a></div>
+              <p class="info">Immagine:<i> Magister Faragius, Aspetti di vita quotidiana, Taccuino Sanitatis, XIV secolo, Biblioteca Casanatense di Roma</i></p> 
+        </div>
+        </div> 
+        </div>
+        </section>
+        <!--project-->
+        <section>
+        <div class="progetto">
+              <h2 id="project">Il progetto</h2>
+               <p>Il catalogo <i>Il veleno nel Medioevo- attestazioni di un’arma letale tra scienza, stregoneria e folclore</i>  è un progetto del Digital Humanities Advanced Research Center (/DH.ARC) dell’Università di Bologna. Gli obiettivi principali del progetto sono la catalogazione, la metadatazione, la preservazione e la valorizzazione di oggetti multimediali che attestano l’uso del veleno durante il periodo medievale, dalle scoperte scientifiche alle credenze popolari. Il risultato è un catalogo che raccoglie una varietà di oggetti tra cui manoscritti, miniature e opere, navigabili attraverso i percorsi tematici <b>scienza, stregoneria e folclore</b>. È possibile inoltre consultare il catalogo attraverso una <b>lista</b>, ordinabile secondo il criterio cronologico o alfabetico, oppure averne una panoramica completa attraverso la <b>linea del tempo</b>. </p>
+               <p> Il progetto è liberamente ispirato al volume <i>Arsenico e altri veleni. Una storia letale nel Medioevo</i> della prof.ssa Beatrice del Bo, docente di Storia economica e sociale del Medioevo presso l'Università degli Studi di Milano. <a href="https://storiainrete.com/medioevo-la-stagione-doro-dei-veleni-utili-per-uccidere-e-anche-per-guarire/" target="_blank" title="Il Medioevo. La stagione d'oro dei veleni">Scopri di più</a></p>           
+        </div>
+        </section>
+        <!--explore-->
+        <section>
+        <div class="esplora">
+        <h2 style="color:white;">Esplora il catalogo</h2>
+        <!--themes-->
+        <div id="Scienza" class="tabcontent tab-blur" style="background: url('Spezie.jpg') center/cover no-repeat;">
+        <h3>Scienza</h3>
+        <p>Scopri le sostanze velenose e i loro antidoti secondo i medici medievali</p>
+       <div class="image-button">
+       <button class="btn bg-grey">Esplora</button>
+       </div>
+       <div class="tabcontent-info">
+       <p class="info">Immagine:<i> Bottega dello speziale, fine XV secolo, castello di Issogne (Aosta)</i></p>
+       </div>
+       </div>
+       <div id="Stregoneria" class="tabcontent tab-blur" style="background: url('Bestiarium.jpg') center/cover no-repeat;">
+      <h3>Stregoneria</h3>
+      <p>Scopri le creature mitiche, letali o guaritrici, le pozioni magiche e gli amuleti usati nel Medioevo</p>
+      <div class="image-button">
+      <button class="btn bg-grey">Esplora</button>
+      </div>
+      <div class="tabcontent-info">
+      <p class="info">Immagine:<i> Bestiarium, in ms. Florilegium patristicum, XIII secolo, Biblioteca Nazionale di Francia, Parigi</i></p>
+     </div>
+     </div>
+     <div id="Folclore" class="tabcontent tab-blur" style="background: url('San-Giovanni.jpg') center/cover no-repeat;">
+      <h3>Folclore</h3>
+      <p>Scopri i racconti e le leggende medievali legati al veleno</p>
+      <div class="image-button">
+      <button class="btn bg-grey">Esplora</button>
+     </div>
+      <div class="tabcontent-info">
+      <p class="info">Immagine:<i> Gaddi Taddeo, San Giovanni Evangelista che beve dalla coppa avvelenata, 1353, Palazzo Loredan Cini, Venezia</i></p>
+    </div>
+    </div>
+    <!--button class--> 
+    <button class="tablink" onclick="openCity('Scienza', this)" id="defaultOpen">Scienza</button>
+    <button class="tablink" onclick="openCity('Stregoneria', this)">Stregoneria</button>
+    <button class="tablink" onclick="openCity('Folclore', this)">Folclore</button>    
+   </div>
+   </section>
+   <!--pre-footer-->
+   <section>
+   <div class="pre-footer">Progetto sviluppato per il corso di Digital Humanities e Patrimonio culturale 2024/2025. A cura di Federica Gaeta</div>
+   </section>
+   <!-- footer -->
+   <footer>
+   <div class="footer">&copy;Il veleno nel Medioevo</div>  
+   </footer> 
+  <script src="main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>San Giovanni che beve dalla coppa avvelenata</title>
+</titleStmt>
+<respStmt>
+<resp>Creazione dell'opera</resp>
+<name xml:id="GT">Gaddi Taddeo  (1295-1300/1366)</name>
+</respStmt>
+<publicationStmt>
+<p>Digitalizzazione a cura del MIC</p>
+<date>ca 1353</date>
+</publicationStmt>
+<sourceDesc>
+<p>Fonti:
+<ref target="https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0500187883">Catalogo dei beni culturali</ref> e 
+<ref target="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/0500187883.html">ARCO LOD</ref>
+</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body> 
+<p>San Giovanni, su ordine del sacerdote Aristodemo, beve da una coppa avvelenata. Davanti a lui, steso a terra, uno dei condannati a morte, che come san Giovanni ha bevuto dal calice avvelenato, è morto. Aristodemo è nell'atto di coprirlo con il mantello del santo. Assistono alla scena altre quattro figure maschili.</p>
+</body> 
+<back>
+<div type="tipologia">
+<p>Scomparto di polittico</p>
+</div>
+</back>
+</text>
+</TEI>

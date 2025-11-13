@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+    <!-- head e body sono i due marcatori che dipendono da html-->
+<head>
+    	   <title>Il veleno nel Medioevo</title>
+         <!-- charset è per settare unicode -->
+         <meta charset="UTF-8"  />   
+         <meta name="description" content="Sito dedicato alle attestazioni del veleno nel Medioevo"  />
+         <meta name="keywords" content="veleno, Medioevo, strumenti di navigazione"  />
+         <meta name="author" content="Federica Gaeta"  />
+         <!-- viewport è per la visualizzazione su device diversi -->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+         <link rel="stylesheet"
+         href="style.css" />
+</head>
+<body>
+        <!--header-->
+        <header>
+        <div class="logo-container">
+          <img src="tofana.jpg" alt="The love potion" class="logo" width="200" height="200">
+        </div>
+        <div class="header-title">
+          <p style="text-align:left;"><i> Φάρμακον (pharmakon) è una parola greca che ha un duplice significato e può indicare sia un veleno che un rimedio o antidoto.</i></p>
+          <p style="text-align:left;"><i> Questo termine ambivalente riflette la consapevolezza che ciò che può ferire può anche curare</i></p>
+          <p style="text-align:left;"><i>e che la cura può essere trovata anche all'interno della ferita stessa.</i></p>
+      </div>
+      </header>
+      <!--navigation bar-->
+      <section>
+      <div class="topnav">
+        <a href="index.html" title="Vai alla home">Home</a>
+        <a href="#">Introduzione</a>        
+        <!--index-->      
+        <div class="dropdown">
+          <button class="dropbtn">Catalogo
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+          <a href="lista-item.html">Lista</a>
+          <a href="#">Scienza</a>
+          <a href="#">Stregoneria</a>
+          <a href="#">Folclore</a>
+        </div>
+        </div>
+        <a href="Linea del tempo.html" title="Vai alla linea del tempo">Linea del tempo</a>
+        <a href="newsletter.html" title="Vai alla newsletter">Newsletter</a>
+      <!--search bar-->
+      <div class="search-container">
+      <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Cerca</button>
+      </form>
+      </div>    
+      </section>
+      <!--breadcrumbs-->
+      <section>          
+      <ul class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li>Lista</li>
+      </ul>
+      <!--sidenav-->
+      <div class="item-container"> 
+      <div class="sidenav">      
+      <!--filtrers-->          
+      <h3 style="color:black;">Riordina la lista</h3>
+      <a href="#" class="btn default" title="In ordine cronologico">Ordine cronologico</a>
+      <a href="#" class="btn bg-grey" title="Dalla A alla Z">Dalla A alla Z</a>
+      <a href="#" class="btn bg-grey" title="Dalla Z alla A">Dalla Z alla A</a>
+      <!--checkboxes-->   
+      <h3 style="color:black;">Filtra per</h3>
+      <label class="custom-container">Manoscritti
+      <input type="checkbox" checked="checked">
+      <span class="checkmark"></span>
+      </label>
+      <label class="custom-container">Miniature
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      </label>
+      <label class="custom-container">Opere
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      </label>
+      </div>
+      <!--items container-->            
+      <div class="item-content">
+      <div class="container-cards">
+          <h2>Lista</h2>
+          <!--CARD 1-->
+          <div class="card">
+          <img src="img item/Bestiarium.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>Bestiarium</b></h4>
+          <p> Manoscritto Florilegium patristicum</p>
+          <p>Biblioteca nazionale di Francia, Parigi</p>
+          <p>XIII secolo</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+          </div>
+          <!-- CARD 2 -->
+          <div class="card">
+          <img src="img item/Miracolo dell'ostia profanata.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>Miracolo dell'ostia profanata</b></h4>
+          <p>Predella di pala d'altare </p>
+          <p>Chiesa Corpus Domini, Urbino</p>
+          <p>1467-1468</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+          </div>
+          <!-- CARD 3 -->
+          <div class="card">
+          <img src="img item/Le vergini stolte.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>Vergini stolte</b></h4>
+          <p>Portale della cattedrale di Strasburgo</p>
+          <p>Strasburgo</p>
+          <p>XIV secolo</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+          </div>          
+          <!-- CARD 4 -->
+          <div class="card">
+          <img src="img item/La dama e l'unicorno.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>La dama e l'unicorno</b></h4>
+          <p>Ciclo di arazzi fiamminghi</p>
+          <p>Museo di Cluny, Parigi</p>
+          <p>fine XV secolo</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+          </div>
+          <!-- CARD 5 -->
+          <div class="card">
+          <img src="img item/Bottega dello speziale.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>Bottega dello speziale</b></h4>
+          <p>Lunetta del porticato</p>
+          <p>Castello di Issogne, Aosta</p>
+          <p>fine XV secolo</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+          </div>
+          <!-- CARD 6 -->
+          <div class="card">
+          <img src="img item/San Giovanni Evangelista.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>San Giovanni Evangelista che beve dalla coppa avvelenata</b></h4>
+          <p>Scomparto di polittico</p>
+          <p>Palazzo Loredan Cini, Venezia </p>
+          <p>1353</p>
+          <a href="ItemDC.html"><p><button>Tutti i metadati</button></p></a>
+          </div>
+          </div>
+          <!-- CARD 7 -->
+          <div class="card">
+          <img src="img item/Liber de venenis.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>Liber de venenis</b></h4>
+          <p>Manoscritto</p>
+          <p>Biblioteca Statale della Baviera, Monaco di Baviera</p>
+          <p>1487</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+          </div>
+          <!-- CARD 8 -->
+          <div class="card">
+          <img src="img item/Frutto della mandragola.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>Frutto della mandragola</b></h4>
+          <p>Miniatura nel manoscritto Tacuinum Sanitatis</p>
+          <p>Biblioteca nazionale di Francia, Parigi</p>
+          <p>XV secolo</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+          </div>
+          <!-- CARD 9 -->
+          <div class="card">
+          <img src="img item/Raccolta della bufonite.jpg" alt="Avatar" style="width:100%">
+          <div class="card-container">
+          <h4><b>Raccolta della bufonite</b></h4>
+          <p>Miniatura nell'enciclopedia Hortus Sanitatis</p>
+          <p>Biblioteca Statale della Baviera, Monaco di Baviera</p>
+          <p>1491</p>
+          <p><button>Tutti i metadati</button></p>
+          </div>
+      </div>
+      </div>        
+      <div class="clear"></div> 
+      </div>
+      </section>
+      <!--pagination-->
+      <section>
+      <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a class="active" href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+      </div>  
+      </section>
+   <!--pre-footer-->
+   <section>
+   <div class="pre-footer">Progetto sviluppato per il corso di Digital Humanities e Patrimonio culturale 2024/2025. A cura di Federica Gaeta</div>
+   </section>
+   <!-- footer -->
+   <footer>
+   <div class="footer">&copy;Il veleno nel Medioevo</div>  
+   </footer> 
+  </body>
+</html>  
+      
